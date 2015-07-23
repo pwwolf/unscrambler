@@ -13,7 +13,7 @@ var letters = process.argv[2];
 var req = process.argv[3];
 var matches = [];
 
-var wordTree = require('../data/tree.json');
+var wordTree = require('./data/tree.json');
 
 traverseTree(wordTree, Immutable.List(letters.split('')));
 

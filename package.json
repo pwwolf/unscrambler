@@ -1,9 +1,9 @@
 {
-  "name": "word-finder",
+  "name": "unscrambler",
   "version": "1.0.0",
   "description": "Find words from a srambled list of letters",
-  "main": "lib/findwords.js",
-  "bin": "lib/findwords.js",
+  "main": "unscramble.js",
+  "bin": "unscramble.js",
   "dependencies": {
     "immutable": "^3.7.4",
     "lodash": "^3.10.0"
