@@ -1,0 +1,17 @@
+{
+  "name": "word-finder",
+  "version": "1.0.0",
+  "description": "Find words from a srambled list of letters",
+  "main": "lib/findwords.js",
+  "bin": "lib/findwords.js",
+  "dependencies": {
+    "immutable": "^3.7.4",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Wolf <patwolf@gmail.com>",
+  "license": "MIT"
+}
